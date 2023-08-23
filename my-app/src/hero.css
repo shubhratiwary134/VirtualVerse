@@ -1,0 +1,253 @@
+body{
+    /* background: #dddbdb; */
+    color: #ffffff;
+}
+.hero-container{
+    display: flex;
+    margin-top: 3em;
+    width: 100%;
+   
+}
+.hero-main{
+    margin-left: 2em;
+}
+.hero-sidebar{
+    margin-top: 2.5em;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:20px; 
+    margin-left:3%;  
+   
+}
+
+.hero-TAGS{
+    margin: 0;
+}
+.hero-TAGS:hover{
+    color: rgb(59,59,59);
+}
+.hero-TAGS,.sidebar-topics{
+    font-size: 1.5rem;
+    font-weight: 700;
+   
+}
+
+.sidebar-topics{
+    font-weight: 500;
+}
+
+.sidebar-list{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+li{
+    text-align: start;
+    display: flex;
+    font-size: 1rem;
+    align-items: center;
+}
+
+.sidebar-icon{
+    background:rgb(59,59,59) ;
+    width:1em;
+    margin-bottom: 10px;
+    margin-right: 8px;
+   padding: .4em;
+   border-radius: 10px;
+}
+.hero-main-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+   
+}
+.hero-main-p{
+    margin: 0 1em;
+    font-size: 3.5rem;
+    text-align:start;
+    font-family: 'Caprasimo', cursive;
+}
+.hero-main-small-p{
+    font-size: 1rem;
+}
+
+
+.p-movie{
+  
+    font-size: 1.5rem;
+    margin: 0.3em;
+    font-family: 'Montserrat', sans-serif;
+}
+.p-movie-overview{
+  
+    font-family: 'Preahvihear', sans-serif;
+}
+.trending-container{
+    display: grid;
+    grid-template-columns: auto  auto auto ;
+    column-gap: 20px;
+    row-gap: 20px;
+    margin-right: 2em;
+    padding: 2em;
+    margin-bottom: .5em;
+   
+}
+.trending-container-upcoming{
+    display: grid;
+    grid-template-columns: auto  auto auto auto;
+    column-gap: 20px;
+    row-gap: 20px;
+    margin-right: 2em;
+    padding: 2em;
+    margin-bottom: .5em;
+}
+.trending-image{
+    max-width: 100%;
+    border-radius: 20px;
+    
+}
+.trending-image:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    border-radius: 0;
+}
+.trending-paper-container{
+    padding: 3em;
+    border-radius: 50px;
+    box-shadow: 2px 2px rgb(27, 25, 25);
+   
+ 
+}
+.trending-paper-container:hover{
+   
+    border: 2px solid rgb(65, 64, 64);
+}
+
+.rating{
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+
+}
+.rating-movie{
+    display: flex;
+    align-items: center;
+}
+.movie-button{
+    /* background: rgb(39, 166, 98); */
+   width: 15%;
+  background-color: #faf6f6;
+    border-radius: 20px;
+    padding: 10px;
+    
+}
+.movie-button:hover{
+    opacity: .8;
+}
+
+/* .cover-container{
+    margin: 0 4em;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+   
+} */
+/* .background-img-details{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    opacity: .5;
+} */
+
+.modal-container{
+
+    display: flex;
+    justify-content: space-around;
+    background: #000000;
+  
+    padding: 2em;
+    /* background-image: url("./Images/pexels-shay-wood-574116.jpg");
+    background-repeat: no-repeat; */
+   height: 90%;
+    opacity: 0.8;
+}
+
+.modal-img{ 
+    margin-right: 4em;
+   
+
+}
+.detail-img{
+    width:100%;
+    height: 100%;
+    object-fit: contain;
+   border-radius: 30px;
+ 
+   /* box-shadow: 10px 10px rgb(107, 107, 105); */
+}
+.modal-detail{
+    width: 70%;
+    margin-top: 6em;
+    margin-right: 2em;
+    color: rgb(255, 254, 254);
+}
+.detail-title{
+    text-align: center;
+    font-family: 'Caprasimo', cursive;
+    font-size: 4rem;
+    margin: 0;
+    
+}
+.detail-overview{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.details-rating{
+   display: flex;
+   align-items: center;
+   
+   justify-content: space-between;
+}
+.rating-container{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-size: 5em;
+}
+
+
+.return-btn{
+    margin-top:1em;
+    margin-left: 1em;
+    font-size: 1rem;
+   padding:0.4em 1em;
+   background-color: #fff5f5;
+   color: #010101;
+    border-radius: 10px;   
+}
+.return-btn:hover{
+    background-color: #010101;
+    color: #faf6f6;
+}
+.trailer-btn{
+    font-size: 1.5rem;
+    padding:0.4em 1em;
+    border-radius: 20px; 
+    background-color: #fff5f5;
+    color: #010101;
+    cursor: pointer;
+}
+.detail-btn-a{
+    color: #000000;
+}
+.trailer-btn:hover{
+    background: rgb(156, 158, 156);
+    border: none;
+}
+
+
